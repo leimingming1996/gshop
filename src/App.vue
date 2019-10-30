@@ -9,6 +9,9 @@
 import FooterGuide from './components/FooterGuider/FooterGuide.vue'
 export default {
   name: 'App',
+  mounted () {
+    this.$store.dispatch('getCategorys')
+  },
   components: {
     FooterGuide
   }

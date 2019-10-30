@@ -182,7 +182,7 @@
 </template>
 
 <script>
-  export default {}
+export default {}
 </script>
 
 <style rel="stylesheet/stylus" lang="stylus">
